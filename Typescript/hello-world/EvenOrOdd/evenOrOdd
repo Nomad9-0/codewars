@@ -1,0 +1,9 @@
+export function evenOrOdd(n:number):string {
+    let odd: number = n % 2;
+    if (odd) {
+        return "Odd";
+    }
+    else{
+        return "Even";
+    }    
+}
